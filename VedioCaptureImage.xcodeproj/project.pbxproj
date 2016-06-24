@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1601AC481D054C50007FA3F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601AC471D054C50007FA3F0 /* AppDelegate.swift */; };
+		1601AC4A1D054C50007FA3F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601AC491D054C50007FA3F0 /* ViewController.swift */; };
+		1601AC4D1D054C50007FA3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1601AC4B1D054C50007FA3F0 /* Main.storyboard */; };
+		1601AC4F1D054C50007FA3F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1601AC4E1D054C50007FA3F0 /* Assets.xcassets */; };
+		1601AC521D054C50007FA3F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1601AC501D054C50007FA3F0 /* LaunchScreen.storyboard */; };
+		1601AC5D1D054C50007FA3F0 /* VedioCaptureImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601AC5C1D054C50007FA3F0 /* VedioCaptureImageTests.swift */; };
+		1601AC681D054C50007FA3F0 /* VedioCaptureImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1601AC671D054C50007FA3F0 /* VedioCaptureImageUITests.swift */; };
+		1601AC761D054CDE007FA3F0 /* head_194.png in Resources */ = {isa = PBXBuildFile; fileRef = 1601AC751D054CDE007FA3F0 /* head_194.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1601AC591D054C50007FA3F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1601AC3C1D054C50007FA3F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1601AC431D054C50007FA3F0;
+			remoteInfo = VedioCaptureImage;
+		};
+		1601AC641D054C50007FA3F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1601AC3C1D054C50007FA3F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1601AC431D054C50007FA3F0;
+			remoteInfo = VedioCaptureImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1601AC441D054C50007FA3F0 /* VedioCaptureImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VedioCaptureImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1601AC471D054C50007FA3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1601AC491D054C50007FA3F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1601AC4C1D054C50007FA3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1601AC4E1D054C50007FA3F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1601AC511D054C50007FA3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1601AC531D054C50007FA3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1601AC581D054C50007FA3F0 /* VedioCaptureImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VedioCaptureImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1601AC5C1D054C50007FA3F0 /* VedioCaptureImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedioCaptureImageTests.swift; sourceTree = "<group>"; };
+		1601AC5E1D054C50007FA3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1601AC631D054C50007FA3F0 /* VedioCaptureImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VedioCaptureImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1601AC671D054C50007FA3F0 /* VedioCaptureImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VedioCaptureImageUITests.swift; sourceTree = "<group>"; };
+		1601AC691D054C50007FA3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1601AC751D054CDE007FA3F0 /* head_194.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_194.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1601AC411D054C50007FA3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601AC551D054C50007FA3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601AC601D054C50007FA3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1601AC3B1D054C50007FA3F0 = {
+			isa = PBXGroup;
+			children = (
+				1601AC461D054C50007FA3F0 /* VedioCaptureImage */,
+				1601AC5B1D054C50007FA3F0 /* VedioCaptureImageTests */,
+				1601AC661D054C50007FA3F0 /* VedioCaptureImageUITests */,
+				1601AC451D054C50007FA3F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1601AC451D054C50007FA3F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1601AC441D054C50007FA3F0 /* VedioCaptureImage.app */,
+				1601AC581D054C50007FA3F0 /* VedioCaptureImageTests.xctest */,
+				1601AC631D054C50007FA3F0 /* VedioCaptureImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1601AC461D054C50007FA3F0 /* VedioCaptureImage */ = {
+			isa = PBXGroup;
+			children = (
+				1601AC751D054CDE007FA3F0 /* head_194.png */,
+				1601AC471D054C50007FA3F0 /* AppDelegate.swift */,
+				1601AC491D054C50007FA3F0 /* ViewController.swift */,
+				1601AC4B1D054C50007FA3F0 /* Main.storyboard */,
+				1601AC4E1D054C50007FA3F0 /* Assets.xcassets */,
+				1601AC501D054C50007FA3F0 /* LaunchScreen.storyboard */,
+				1601AC531D054C50007FA3F0 /* Info.plist */,
+			);
+			path = VedioCaptureImage;
+			sourceTree = "<group>";
+		};
+		1601AC5B1D054C50007FA3F0 /* VedioCaptureImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				1601AC5C1D054C50007FA3F0 /* VedioCaptureImageTests.swift */,
+				1601AC5E1D054C50007FA3F0 /* Info.plist */,
+			);
+			path = VedioCaptureImageTests;
+			sourceTree = "<group>";
+		};
+		1601AC661D054C50007FA3F0 /* VedioCaptureImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1601AC671D054C50007FA3F0 /* VedioCaptureImageUITests.swift */,
+				1601AC691D054C50007FA3F0 /* Info.plist */,
+			);
+			path = VedioCaptureImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1601AC431D054C50007FA3F0 /* VedioCaptureImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1601AC6C1D054C50007FA3F0 /* Build configuration list for PBXNativeTarget "VedioCaptureImage" */;
+			buildPhases = (
+				1601AC401D054C50007FA3F0 /* Sources */,
+				1601AC411D054C50007FA3F0 /* Frameworks */,
+				1601AC421D054C50007FA3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VedioCaptureImage;
+			productName = VedioCaptureImage;
+			productReference = 1601AC441D054C50007FA3F0 /* VedioCaptureImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1601AC571D054C50007FA3F0 /* VedioCaptureImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1601AC6F1D054C50007FA3F0 /* Build configuration list for PBXNativeTarget "VedioCaptureImageTests" */;
+			buildPhases = (
+				1601AC541D054C50007FA3F0 /* Sources */,
+				1601AC551D054C50007FA3F0 /* Frameworks */,
+				1601AC561D054C50007FA3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1601AC5A1D054C50007FA3F0 /* PBXTargetDependency */,
+			);
+			name = VedioCaptureImageTests;
+			productName = VedioCaptureImageTests;
+			productReference = 1601AC581D054C50007FA3F0 /* VedioCaptureImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1601AC621D054C50007FA3F0 /* VedioCaptureImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1601AC721D054C50007FA3F0 /* Build configuration list for PBXNativeTarget "VedioCaptureImageUITests" */;
+			buildPhases = (
+				1601AC5F1D054C50007FA3F0 /* Sources */,
+				1601AC601D054C50007FA3F0 /* Frameworks */,
+				1601AC611D054C50007FA3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1601AC651D054C50007FA3F0 /* PBXTargetDependency */,
+			);
+			name = VedioCaptureImageUITests;
+			productName = VedioCaptureImageUITests;
+			productReference = 1601AC631D054C50007FA3F0 /* VedioCaptureImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1601AC3C1D054C50007FA3F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = iyzsh;
+				TargetAttributes = {
+					1601AC431D054C50007FA3F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					1601AC571D054C50007FA3F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1601AC431D054C50007FA3F0;
+					};
+					1601AC621D054C50007FA3F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 1601AC431D054C50007FA3F0;
+					};
+				};
+			};
+			buildConfigurationList = 1601AC3F1D054C50007FA3F0 /* Build configuration list for PBXProject "VedioCaptureImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1601AC3B1D054C50007FA3F0;
+			productRefGroup = 1601AC451D054C50007FA3F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1601AC431D054C50007FA3F0 /* VedioCaptureImage */,
+				1601AC571D054C50007FA3F0 /* VedioCaptureImageTests */,
+				1601AC621D054C50007FA3F0 /* VedioCaptureImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1601AC421D054C50007FA3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1601AC521D054C50007FA3F0 /* LaunchScreen.storyboard in Resources */,
+				1601AC4F1D054C50007FA3F0 /* Assets.xcassets in Resources */,
+				1601AC761D054CDE007FA3F0 /* head_194.png in Resources */,
+				1601AC4D1D054C50007FA3F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601AC561D054C50007FA3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601AC611D054C50007FA3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1601AC401D054C50007FA3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1601AC4A1D054C50007FA3F0 /* ViewController.swift in Sources */,
+				1601AC481D054C50007FA3F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601AC541D054C50007FA3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1601AC5D1D054C50007FA3F0 /* VedioCaptureImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1601AC5F1D054C50007FA3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1601AC681D054C50007FA3F0 /* VedioCaptureImageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1601AC5A1D054C50007FA3F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1601AC431D054C50007FA3F0 /* VedioCaptureImage */;
+			targetProxy = 1601AC591D054C50007FA3F0 /* PBXContainerItemProxy */;
+		};
+		1601AC651D054C50007FA3F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1601AC431D054C50007FA3F0 /* VedioCaptureImage */;
+			targetProxy = 1601AC641D054C50007FA3F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1601AC4B1D054C50007FA3F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1601AC4C1D054C50007FA3F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1601AC501D054C50007FA3F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1601AC511D054C50007FA3F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1601AC6A1D054C50007FA3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1601AC6B1D054C50007FA3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1601AC6D1D054C50007FA3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VedioCaptureImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyer.VedioCaptureImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1601AC6E1D054C50007FA3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VedioCaptureImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyer.VedioCaptureImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1601AC701D054C50007FA3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VedioCaptureImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyer.VedioCaptureImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VedioCaptureImage.app/VedioCaptureImage";
+			};
+			name = Debug;
+		};
+		1601AC711D054C50007FA3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VedioCaptureImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyer.VedioCaptureImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VedioCaptureImage.app/VedioCaptureImage";
+			};
+			name = Release;
+		};
+		1601AC731D054C50007FA3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VedioCaptureImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyer.VedioCaptureImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VedioCaptureImage;
+			};
+			name = Debug;
+		};
+		1601AC741D054C50007FA3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VedioCaptureImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyer.VedioCaptureImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VedioCaptureImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1601AC3F1D054C50007FA3F0 /* Build configuration list for PBXProject "VedioCaptureImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1601AC6A1D054C50007FA3F0 /* Debug */,
+				1601AC6B1D054C50007FA3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1601AC6C1D054C50007FA3F0 /* Build configuration list for PBXNativeTarget "VedioCaptureImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1601AC6D1D054C50007FA3F0 /* Debug */,
+				1601AC6E1D054C50007FA3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1601AC6F1D054C50007FA3F0 /* Build configuration list for PBXNativeTarget "VedioCaptureImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1601AC701D054C50007FA3F0 /* Debug */,
+				1601AC711D054C50007FA3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1601AC721D054C50007FA3F0 /* Build configuration list for PBXNativeTarget "VedioCaptureImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1601AC731D054C50007FA3F0 /* Debug */,
+				1601AC741D054C50007FA3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1601AC3C1D054C50007FA3F0 /* Project object */;
+}
